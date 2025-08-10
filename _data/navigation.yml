@@ -1,0 +1,13 @@
+main:
+  - title: "Accueil"
+    url: /
+  - title: "Recherche"
+    url: /recherche/
+  - title: "Enseignements"
+    url: /enseignements/
+  - title: "Publications"
+    url: /publications/
+  - title: "Articles en ligne"
+    url: /Articles en ligne/
+  - title: "CV"
+    url: /cv/

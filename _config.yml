@@ -1,0 +1,63 @@
+title: "Linxin HE — Recherche & Enseignement"
+name: "Linxin HE"
+description: "Chercheur en droit. Publications, enseignement, projets."
+locale: fr-FR
+url: "https://linxin.he.github.io"
+
+# Thème Jekyll (chargé à distance, pas besoin d'installation locale)
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Apparence (peut être : default, dark, contrast, sunrise, etc.)
+minimal_mistakes_skin: "default"
+
+# Plugins supportés par GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Options du thème
+include:
+  - _pages
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+
+# Profil auteur (affiché en colonne)
+author:
+  name: "Linxin HE"
+  avatar: "/assets/img/avatar.jpg"   
+  bio: "Professeur des universités, agrégé des facultés de droit. Intérêts : Droit social international et européen, droits fondamentaux, philosophie du droit, droit comparé."
+  location: "Strasbourg, France"
+  links:
+    - label: "Email"
+      url: "mailto:l.he@unistra.fr"
+    - label: "ORCID"
+      url: "https://orcid.org/0000-0002-1671-1056"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/"
+    - label: "HAL"
+      url: "https://hal.science/search/index/q/*/authIdHal_s/linxin-he"
+    - label: "GitHub"
+      url: "https://github.com/Davidlinxin"
+
+# Navigation (menu du haut)
+collections:
+  pages:
+    output: true
+
+pagination:
+  enabled: false
